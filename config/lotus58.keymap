@@ -69,7 +69,7 @@
             // 52                    |ENT RS|  ALT | SPACE|DELETE LW|  |ENTER RS| BSPC |  ] LW | RGUI  |                        59
 
             bindings = <
-&kp ESC           &kp N1  &kp N2  &kp N3    &fofunc   &kp N5                           &kp N6     &kp N7     &kp N8         &kp N9   &kp N0    &mt EQUAL UNDER
+&kp ESC           &kp N1  &kp N2  &kp N3    &fofunc   &kp N5                           &kp N6     &kp N7     &kp N8         &kp N9   &kp N0    &mt EQUAL MINUS
 &kp TAB           &kp Q   &kp W   &kp E     &kp R     &kp T                            &kp Y      &kp U      &kp I          &kp O    &kp P     &mt DELETE BACKSPACE
 &kp LEFT_CONTROL  &kp A   &kp S   &kp D     &kp F     &kp G      &trans    &kp C_MUTE  &kp H      &kp J      &kp K          &kp L    &kp SEMI  &mt RIGHT_CONTROL SQT
 &kp LEFT_SHIFT    &kp Z   &kp X   &kp C     &kp V     &kp B      &kp LBKT  &kp RBKT    &kp N      &kp M      &kp COMMA      &kp DOT  &kp FSLH  &mt RIGHT_SHIFT BSLH
@@ -90,10 +90,10 @@
             //                     |  F11 |      |      |        |  |       |      |       |  F12  |
 
             bindings = <
-&kp GRAVE  &kp F1    &kp F2     &kp F3    &kp F4     &kp F5                     &kp F6        &kp F7     &kp F8    &kp F9     &kp F10    &kp PLUS
-&trans     &kp EXCL  &kp HOME   &kp UP    &kp END    &kp PRCNT                  &kp C_VOL_UP  &kp PG_UP  &kp INS   &kp CARET  &kp PSCRN  &kp MINUS
-&trans     &kp HASH  &kp LEFT   &kp DOWN  &kp RIGHT  &kp DLLR   &trans  &trans  &kp C_VOL_DN  &kp LEFT   &kp UP    &kp RIGHT  &kp TILDE  &kp UNDER
-&trans     &kp AT    &kp MINUS  &kp LBRC  &kp RBRC   &kp AMPS   &trans  &trans  &kp C_MUTE    &kp PG_DN  &kp DOWN  &kp COLON  &kp STAR   &kp PIPE
+&kp GRAVE  &kp F1    &kp F2     &kp F3    &kp F4     &kp F5                     &kp F6        &kp F7     &kp F8        &kp F9     &kp F10           &kp EQUAL
+&trans     &kp EXCL  &kp HOME   &kp UP    &kp END    &kp PRCNT                  &kp C_VOL_UP  &kp PG_UP  &kp UP_ARROW  &kp CARET  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&trans     &kp HASH  &kp LEFT   &kp DOWN  &kp RIGHT  &kp DLLR   &trans  &trans  &kp C_VOL_DN  &kp LEFT   &kp DOWN      &kp RIGHT  &kp TILDE         &kp UNDER
+&trans     &kp AT    &kp MINUS  &kp LBRC  &kp RBRC   &kp AMPS   &trans  &trans  &kp C_MUTE    &kp PG_DN  &kp DOWN      &kp COLON  &kp STAR          &kp PIPE
                                 &trans    &trans     &trans     &trans  &trans  &trans        &trans     &kp F12
             >;
 
